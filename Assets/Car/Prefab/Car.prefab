@@ -1,0 +1,1014 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4178048703220047333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2195631765801334375}
+  m_Layer: 0
+  m_Name: Car
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 65
+  m_IsActive: 1
+--- !u!4 &2195631765801334375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4178048703220047333}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.21, z: 0}
+  m_LocalScale: {x: 2.2969635, y: 2.2969635, z: 2.2969635}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4150765146701482145}
+  - {fileID: 2069419325268016825}
+  - {fileID: 4892546622590670652}
+  - {fileID: 3902744750092943548}
+  - {fileID: 1684900046462208855}
+  - {fileID: 7475101055979257855}
+  - {fileID: 8151819505533412668}
+  - {fileID: 4061808188250089839}
+  - {fileID: 8338913672745361689}
+  - {fileID: 5985345646521724449}
+  - {fileID: 3989776368442536182}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &477212191671745574
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -7793473174633732538, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7793473174633732538, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -6471334465355718441, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.8601074
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.547827
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.44572544
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3228885411082877415, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -2737516463715590700, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -2520446903877685531, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2520446903877685531, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 446772675431765384, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 932281081192756036, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697701586506411666, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+--- !u!4 &4892546622590670652 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+  m_PrefabInstance: {fileID: 477212191671745574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1615258352466658619
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -6471334465355718441, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3745117
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7608278
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.078650534
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.987313
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.15878646
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Steering
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 446772675431765384, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+--- !u!4 &5985345646521724449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 2d2278695b53b8d4ba3edf1b95c905a0, type: 3}
+  m_PrefabInstance: {fileID: 1615258352466658619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2505778206768092389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00000002535062
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83560723
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5799546
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Hood
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1590213879899933752, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+--- !u!4 &7475101055979257855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3fff5a65ff368fb44996f1ab3495d9af, type: 3}
+  m_PrefabInstance: {fileID: 2505778206768092389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3772785485382077990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -8953413672755038762, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.012999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2520446903877685531, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Interior
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 446772675431765384, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 4335750742085641945, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+--- !u!4 &8151819505533412668 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: ca145d01f6a607f4bb3de65e54f2a977, type: 3}
+  m_PrefabInstance: {fileID: 3772785485382077990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3946121957501241859
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -6471334465355718441, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Seat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9151305354274270114, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+--- !u!4 &8338913672745361689 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+  m_PrefabInstance: {fileID: 3946121957501241859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5916396635729092685
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -6398373745651173567, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Exterior_Lights
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 635923051467678154, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697701586506411666, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717648358498143118, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009258597730484502, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+--- !u!4 &1684900046462208855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 2888a2a731096cf49874150653fd0d92, type: 3}
+  m_PrefabInstance: {fileID: 5916396635729092685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6467935596247782819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -7793473174633732538, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -6471334465355718441, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.8601074
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.547827
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.44572544
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3228885411082877415, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -2737516463715590700, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -2520446903877685531, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Door
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 446772675431765384, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 932281081192756036, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697701586506411666, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+--- !u!4 &2069419325268016825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9903b00d6af86ca4783eff781d5fbde9, type: 3}
+  m_PrefabInstance: {fileID: 6467935596247782819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8224765586494348268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -9105583815168933957, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -8036798984965531922, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -6731799926187239850, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4581140955157868978, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4447248448935935493, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3406426318444723005, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -2374909788130645540, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Tire
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2114801279288850196, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 2584643500163139899, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3255696928215385059, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460482616391661429, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8155750263911443039, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+--- !u!4 &3989776368442536182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: c8ddfb9891b472e428d5276323d8df6c, type: 3}
+  m_PrefabInstance: {fileID: 8224765586494348268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8310233551401790374
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -7793473174633732538, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -6471334465355718441, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.68248e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2083442377763639321, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Exterior
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+--- !u!4 &3902744750092943548 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 9fa63fd8533fe4348a8b52e4cd9e669a, type: 3}
+  m_PrefabInstance: {fileID: 8310233551401790374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8998418719209120699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -7793473174633732538, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -5127772081801740595, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2073777
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.0067055
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2520446903877685531, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -1075273465738872360, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Baggage
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 204142945082504909, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 937140427670825826, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181011452576765462, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1363166957515903499, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697701586506411666, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6211127778798818681, guid: 651b359248aabb04e91535580cad85de, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 651b359248aabb04e91535580cad85de, type: 3}
+--- !u!4 &4150765146701482145 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 651b359248aabb04e91535580cad85de, type: 3}
+  m_PrefabInstance: {fileID: 8998418719209120699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9017549818296451701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2195631765801334375}
+    m_Modifications:
+    - target: {fileID: -6471334465355718441, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_Name
+      value: Toyota_GRSupra_Seat
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 9151305354274270114, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 65
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+--- !u!4 &4061808188250089839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 5420bf85a1fb0764189f80b1e26be0ee, type: 3}
+  m_PrefabInstance: {fileID: 9017549818296451701}
+  m_PrefabAsset: {fileID: 0}
